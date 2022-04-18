@@ -1,6 +1,6 @@
 import React from 'react';
-import AppPage from '../@crema/hoc/DefaultPage/index'
-import asyncComponent from "../@crema/utility/asyncComponent";
+import PublicPage from '../@crema/hoc/PublicPage/index';
+import asyncComponent from '../@crema/utility/asyncComponent';
 
-const SignIn = asyncComponent(() => import('../modules/auth/Signin/index'));
-export default AppPage(() => <SignIn/>);
+const HomePage = asyncComponent(() => import('../components/home/index'));
+export default PublicPage(() => <HomePage />);

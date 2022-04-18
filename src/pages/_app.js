@@ -15,6 +15,8 @@ import {useStore} from '../redux/store'; // Client-side cache, shared for the wh
 import '../@crema/services/index';
 import '../shared/vendors/index.css';
 
+import 'bootstrap/dist/css/bootstrap.css';
+
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
 

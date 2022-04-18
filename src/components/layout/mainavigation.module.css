@@ -1,0 +1,34 @@
+.header_top_bar {
+  background: #f7f8fa;
+  font-size: 14px;
+  padding: 10px 0px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: $primaryColor;
+}
+
+.top_bar_info li {
+  color: #4b4b4c;
+  /* margin-right: 20px; */
+}
+
+.top_bar_info li span {
+  color: #4b4b4c;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+.list_inline_item {
+  margin-left: 2.2rem;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+  .top_bar_info {
+    text-align: center;
+  }
+  .list_inline_item {
+    margin-left: 0px;
+  }
+}
