@@ -1,0 +1,77 @@
+# build output
+dist
+.next
+target
+
+# dependencies
+node_modules
+package-lock.json
+yarn.lock
+!/yarn.lock
+test/node_modules
+pnpm-lock.yaml
+/node_modules
+/.pnp
+.pnp.js
+/.idea/crema.iml
+/.idea/dictionaries/yogi0.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.idea/*
+
+# logs & pids
+*.log
+pids
+*.cpuprofile
+
+# coverage
+.nyc_output
+coverage
+
+# test output
+test/*/out
+test/**/next-env.d.ts
+.DS_Store
+/e2e-tests
+test/tmp/**
+
+# Editors
+**/.idea
+*/.#
+
+# examples
+examples/**/out
+examples/*/.env.local
+
+pr-stats.md
+test-timings.json
+
+# Vercel
+.vercel
+.now
+
+# Cache
+*.tsbuildinfo
+pnpm-lock.yaml
+
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/debug.log
